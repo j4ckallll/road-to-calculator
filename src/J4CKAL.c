@@ -11,7 +11,21 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(void) {
-	printf("!!!Hello World!!!");
-	return EXIT_SUCCESS;
+int main(void)
+{
+	int i;
+
+	for(i=1;i<=100;i++)
+	{
+		if(i%2==0)
+		{
+			printf("\n%d is even",i);
+		}
+		else
+		{
+			printf("\n%d is odd",i);
+		}
+
+	}
+
 }
