@@ -12,20 +12,16 @@
 #include <stdlib.h>
 
 int main(void)
-{
-	int i;
+{/*Write a small for loop (or just describe the logic) that calculates the sum of all
+numbers from 1 to 10 (i.e., $1 + 2 + 3 + ... + 10$) and prints the final total.*/
 
-	for(i=1;i<=100;i++)
+
+	int n,sum=0;
+	for(n=1;n<=10;n++)
 	{
-		if(i%2==0)
-		{
-			printf("\n%d is even",i);
-		}
-		else
-		{
-			printf("\n%d is odd",i);
-		}
+		sum=sum+n;
 
 	}
+	printf("%d",sum);
 
 }
